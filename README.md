@@ -1,7 +1,8 @@
 # whatsappWebAPI
 
 This project is made with the help of [Rhymen/go-whatsapp - WhatsApp Web API](https://github.com/Rhymen/go-whatsapp).
-Works only for numbers in India for now.
+Modified by [https://github.com/Piyushhbhutoria]
+Works for numbers all around the world
 
 ## Setup
 
@@ -29,22 +30,15 @@ go build main.go
 
 ## Usage
 
-Press the following number to send message on whatsapp  
-Test --> 0  
+Use the flags to send image and text.For example ,in console : ./main '-word=hi people' '-numb=98343874953' '-opc=1' 
+
+opc:
 Send Text --> 1  
 Send Image --> 2  
-Send bulk text --> 3  
-Send bulk image --> 4  
-Exit --> 5  
 
-Demo bulk file examples stored in [files](/files) folder
 
-## Extra
 
-Sample with API hosting, Sentry and bot integrated in hosting folder
 
-## License
 
-![GitHub](https://img.shields.io/github/license/Piyushhbhutoria/whatsappWebAPI?style=for-the-badge)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Piyushhbhutoria/whatsappWebAPI?style=for-the-badge)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Piyushhbhutoria/whatsappWebAPI?style=for-the-badge)
+
+
